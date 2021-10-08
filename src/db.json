@@ -1,0 +1,44 @@
+{"obat":[
+ {
+    "id": 1,
+    "name": "Bodrex Flu dan Batuk",
+    "price": 7000,
+    "image_link": "https://drive.google.com/uc?export=view&id=1NnO1dF7D5RWNK1ySHsPnhHlup37nTqw6",
+    "description":"Obat ini bermanfaat untuk mengatasi gejala flu, seperti demam, pilek, hidung tersumbat, serta batuk tidak berdahak. Bodrex Flu dan Batuk PE tersedia dalam bentuk kaplet dan sirop. Tiap kaplet Bodrex Flu dan Batuk PE mengandung 500 mg paracetamol, 10 mg phenylephrine, dan 12 mg dextromethorphan. Tiap 5 ml sirop Bodrex Flu dan Batuk PE mengandung 150 mg paracetamol, 3,5 mg phenylephrine HCl, dan 4 mg dextromethorphan HBr."
+  },
+  {
+    "id": 2,
+    "name": "Promag",
+    "price": 10000,
+    "image_link": "https://drive.google.com/uc?export=view&id=1BMuBPtnDpuM4po3ycpXe6cWd4FDk9AQC",
+    "description":"Promag bermanfaat untuk mengatasi sakit maag, penyakit asam lambung naik, dan perut kembung. Obat ini dijual secara bebas. Promag tersedia dalam bentuk tablet kunyah dan suspensi cair dengan kandungan bahan aktif yang bervariasi di tiap jenisnya. Bahan aktif yang terkandung di dalam Promag adalah antasida, seperti magnesium hidroksida, hydrotalcite, dan kalsium karbonat, yang berfungsi untuk mengikat asam berlebih dan menetralkan asam lambung."
+  },
+  {
+    "id": 3,
+    "name": "Bisolvon",
+    "price": 13000,
+    "image_link": "https://drive.google.com/uc?export=view&id=166AclNs2T1fpQg55N0fkWGcsjMA-tl0L",
+    "description":"Bisolvon bermanfaat untuk meredakan gejala batuk berhadak yang biasa terjadi saat pilek, flu, atau gangguan saluran pernapasan. Obat ini tersedia dalam bentuk tablet dan sirop. Bisolvon mengandung bahan aktif bromhexine hydrochloride. Obat ini bekerja dengan cara mengencerkan dahak di saluran pernapasan (mukolitik) dan membantu mengeluarkannya."
+  },
+  {
+    "id": 4,
+    "name": "Antangin JRG",
+    "price": 15000,
+    "image_link": "https://drive.google.com/uc?export=view&id=1C5HzXHbqkr-y-85Kht_xnhFP6a-VwGRl",
+    "description":"Antangin adalah produk herbal yang bermanfaat untuk mengatasi masuk angin, mual, perut kembung, badan meriang, serta kelelahan. Antangin dijual bebas di apotek atau supermarket dalam bentuk sirop, tablet, dan permen. Antangin mengandung beberapa bahan herbal, yaitu jahe, daun sembung, ginseng, peppermint, akar manis, biji pala, meniran, kunyit, daun mint, dan royal jelly, serta madu. Kombinasi semua bahan tersebut dipercaya bisa mengatasi masuk angin, menghangatkan tubuh, sekaligus meningkatkan daya tahan tubuh."
+  },
+  {
+    "id": 5,
+    "name": "Antimo",
+    "price": 8000,
+    "image_link": "https://drive.google.com/uc?export=view&id=16hUtTDiw1RVBzxLzPnYPltjl8Eu2vNDR",
+    "description":"Antimo dapat dikategorikan sebagai obat Dimenhydrinate. Dimenhydrinate atau dimenhidrinat adalah obat untuk mencegah dan mengobati mual, muntah, dan pusing akibat mabuk perjalanan. Selain itu, obat ini terkadang dapat digunakan untuk mengatasi vertigo yang disebabkan penyakit Meniere. Dimenhydrinate merupakan golongan antihistamin generasi pertama. Obat ini bekerja dengan cara menghambat produksi dan kerja histamin yang diproduksi tubuh, sehingga mencegah stimulasi saraf di otak dan telinga bagian dalam yang bisa menyebabkan mual, muntah, dan pusing."
+  },
+  {
+    "id": 6,
+    "name": "Panadol Extra",
+    "price": 13000,
+    "image_link": "https://drive.google.com/uc?export=view&id=1BXFl0laOdzzHkvLjmMsRRiDy9-wbspZS",
+    "description":"Panadol adalah obat yang mengandung paracetamol. Panadol memiliki beberapa varian yang ditujukan untuk meredakan gejala dan keluhan, seperti demam, flu, sakit kepala, hidung tersumbat, batuk tidak berdahak, dan bersin-bersin.  Panadol juga sering digunakan untuk meredakan sakit gigi dan nyeri otot. Panadol mengandung paracetamol sebagai bahan aktif utama. Beberapa varian Panadol juga mengandung kombinasi paracetamol dengan bahan aktif lain, seperti dextromethorphan, phenylephrine, dan pseudoephedrin."
+  }
+]}

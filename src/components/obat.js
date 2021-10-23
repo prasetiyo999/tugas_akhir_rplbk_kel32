@@ -12,10 +12,12 @@ function App(props) {
     };
     const countDown = () => {setCount (count - 1);
     }; 
-    
     useEffect(() => {
         if (count >0) {
-            alert(`Jumlah Barang Dalam Kerabjang Telah Diubah`);
+            alert(`Jumlah Barang Dalam Keranjang Telah Diubah`);
+        }if (count < 0) {
+            alert(`Jumlah Barang Tidak Bisa Negatif`);
+            setCount(0);
         }
     }, [count]);
 
@@ -29,7 +31,7 @@ function App(props) {
                         Tambah Barang
                     </Button>                
             </div>
-            <Text>Total cart : {count}</Text>
+            <Text>Dalam Keranjang : {count}</Text>
             <br>
             </br>
             <Text>Total Harga : {props.harga *count}</Text>
@@ -47,6 +49,7 @@ export default class obat extends Component {
             price: "",
             image_link: "",
             description:"",
+            harga:"",
         };        
     }
 
@@ -76,8 +79,8 @@ export default class obat extends Component {
       handleCancel = () => {
         this.setState({visible:false});
       };
-      showModal = (data) => {
-        this.setState({visible:true, description: data});
+      showModal = (data, data1) => {
+        this.setState({ description: data1, harga: data, visible:true});
       }
     render() {
         return (
@@ -89,10 +92,10 @@ export default class obat extends Component {
                     cover={<img alt="gambar" Width="30px" Height="300px" src={results.image_link} />}>
                         <Meta title={results.name} description= {results.price} />
                         <div>
-                             <App harga={results.price} />
+                             
                         </div>
                         <div>
-                        <Button type="primary" style={{backgroundColor:'Green'}} shape="round" onClick={() => this.showModal(results.description)}>
+                        <Button type="primary" style={{backgroundColor:'Green'}} shape="round" onClick={() => this.showModal( <App harga={results.price} /> , results.description )}>
                             Detail
                         </Button>
                         </div>
@@ -101,7 +104,7 @@ export default class obat extends Component {
                 );
             })}
             <Modal title="Detail Barang" visible={this.state.visible} onOk={this.handleOk} 
-                        onCancel={this.handleCancel}><p>{this.state.description}</p>
+                        onCancel={this.handleCancel}><p>{this.state.description}</p><p>{this.state.harga}</p>
                         </Modal> 
         </div>
         );
